@@ -1,4 +1,4 @@
-# PHP Skeleton
+# PHP Lambda Skeleton
 [![Travis](https://img.shields.io/travis/guillermoandrae/php-skeleton.svg?style=flat-square)](https://travis-ci.org/guillermoandrae/php-skeleton) [![Scrutinizer](https://img.shields.io/scrutinizer/g/guillermoandrae/php-skeleton.svg?style=flat-square)](https://scrutinizer-ci.com/g/guillermoandrae/php-skeleton/) [![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/guillermoandrae/php-skeleton.svg?style=flat-square)](https://scrutinizer-ci.com/g/guillermoandrae/php-skeleton/) [![PHP from Travis config](https://img.shields.io/travis/php-v/guillermoandrae/php-skeleton.svg?style=flat-square)](https://travis-ci.org/guillermoandrae/php-skeleton)
  [![@guillermoandrae on Twitter](http://img.shields.io/badge/twitter-%40guillermoandrae-blue.svg?style=flat-square)](https://twitter.com/guillermoandrae)
 
