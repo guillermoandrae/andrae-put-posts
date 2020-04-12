@@ -2,16 +2,10 @@ language: generic
 dist: xenial
 before_install:
   - pyenv global 3.6.7
-  - phpenv global 7.2
+  - phpenv global 7.3
 install:
   - pip install --user awscli
   - pip install --user aws-sam-cli
-matrix:
-  include:
-    - php: 7.2
-    - php: 7.3
-    - php: 7.4
-  fast_finish: true
 script:
   - composer install --no-interaction --optimize-autoloader --prefer-dist
   - composer test
@@ -20,10 +14,10 @@ after_success:
   - php ocular.phar code-coverage:upload --format=php-clover ./clover.xml
 before_deploy:
   - composer update --no-dev
+  - composer package
 deploy:
   provider: script
   script: composer deploy
   skip_cleanup: true
   on:
-    php_version: 7.3
     repo: guillermoandrae/php-lambda-skeleton
