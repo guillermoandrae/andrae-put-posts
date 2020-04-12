@@ -47,7 +47,7 @@
             "sam package --output-template-file .stack.yaml --s3-bucket php-lambda-skeleton --s3-prefix stacks"
         ],
         "deploy": [
-            "sam deploy --template-file .stack.yaml --s3-bucket php-lambda-skeleton --s3-prefix stacks --capabilities CAPABILITY_IAM --stack-name php-lambda-skeleton"
+            "sam deploy --template-file .stack.yaml --capabilities CAPABILITY_IAM --stack-name php-lambda-skeleton"
         ]
     }
 }
